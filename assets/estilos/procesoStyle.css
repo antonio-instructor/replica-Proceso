@@ -1,0 +1,189 @@
+
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(70, 61, 61);
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+.encabezadoLEFT{
+    display: flex;
+    width: 33%;
+}
+.resaltarRojo:hover{
+    color: red;
+}
+.cajaRoja{
+    background-color: red;
+}
+.encabezadoCENTER{
+    width: 33%;
+    text-align: center;
+    font-style: italic;
+}
+.encabezadoRIGHT{
+    width: 33%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+p{
+    margin:5px 8px;
+    padding: 0 2px;
+}
+.iconRedes{
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+.nst{
+    margin-right: 60px;
+}
+.fcb:hover{
+    background-color: rgb(23, 0, 128);
+}
+.twt:hover{
+    background-color: rgb(0, 217, 255);
+}
+.ytb:hover{
+    background-color: red;
+}
+.nst:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  /*  box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+   
+}
+.proceso{
+    display: flex;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+}
+.imgProceso{
+    width: 300px;
+    height: 100px;
+}
+.buscar{
+    position: absolute;
+    right: 60px;
+    top:40%;
+}
+.linea{
+    width: 100%;
+    height: 1px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.navProceso{
+    display: flex;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 8pt;
+    justify-content: center;
+    padding: 10px 0;
+}
+h3{
+    margin: 0 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gainsboro;
+}
+.principal{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.alumnos{
+    width: 100%;
+    height: 400px;
+   filter: contrast(.6);
+}
+h1{
+    position: absolute;
+    bottom: 30px;
+    font-size: 36pt;
+    text-align: center;
+    font-weight:900;
+    text-shadow: 3px 1px gainsboro;
+}
+ h2{
+    position: absolute;
+    bottom:5px;
+    font-weight: 900;
+   
+}
+.lineaSeccion{
+    width: 90%;
+    height: 4px;
+    background:linear-gradient(to right, red 0%, red 5%,gray 20%);
+    margin: 20px auto;
+}
+.destacadas{
+    width: 90%;
+    margin: 0px auto;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.seccion1Contenido{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.video{
+    margin: 10px 5px;
+    width: 45%;
+}
+iframe{
+    width:100%;
+    height:380px;
+}
+.entradasNoticias{
+    margin: 10px 5px;
+    width: 55%;
+}
+.entrada{
+display: flex;
+font-family: sans-serif;
+background-color: whitesmoke;
+margin: 5PX 0;
+}
+.entradaimg{
+    width: 200px;
+    height: 120px;
+}
+.contenidoEntrada{
+    margin-left: 15px;
+}
+.tituloEntrada{
+    font-size: 12pt;
+color:red;
+}
+.encabezadoEntrada{
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.autorEntrada{
+font-size: 8pt;
+color: gray;
+}
+.noticiaN{
+    width: 23%;
+    background-color: whitesmoke;
+}
+.imgN{
+    width: 100%;
+    height: 160px;
+}
